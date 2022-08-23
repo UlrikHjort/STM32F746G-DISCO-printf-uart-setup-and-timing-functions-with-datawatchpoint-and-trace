@@ -60,5 +60,6 @@ unsigned int getCycles();
     printf(#func ": %.2fns\n\r",(double)getCycles()/HAL_RCC_GetHCLKFreq() * 1000000000.0); \
 }
 
+#define TIME_MEASURE TIME_MEASURE_US
 
 #endif /* INC_TIMING_H_ */
